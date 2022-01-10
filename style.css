@@ -25,10 +25,9 @@ body {
   height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: -3.5rem;
 }
 .card {
   height: 600px;
@@ -75,11 +74,10 @@ body {
 }
 h2 {
   padding: 0.7rem 0;
-  font-size: 24px;
 }
 h2 a {
   color: var(--white);
-  font-size: 24px;
+  font-size: 22px;
   text-decoration: none;
 }
 h2 a:hover {
@@ -104,6 +102,7 @@ ul li {
   color: var(--soft-blue);
   display: flex;
   align-items: center;
+  font-weight: 400;
 }
 ul li img {
   padding-right: 0.5rem;
@@ -156,6 +155,7 @@ ul li:first-child {
   font-size: 14px;
   text-align: center;
   color: var(--soft-blue);
+  padding-top: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
