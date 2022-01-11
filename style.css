@@ -72,15 +72,15 @@ body {
   opacity: 1;
   transition: 0.5s;
 }
-h2 {
+h1 {
   padding: 0.7rem 0;
 }
-h2 a {
+h1 a {
   color: var(--white);
   font-size: 22px;
   text-decoration: none;
 }
-h2 a:hover {
+h1 a:hover {
   color: var(--cyan);
   transition: 0.5s;
   cursor: pointer;
@@ -144,7 +144,7 @@ ul li:first-child {
   body {
     font-size: 16px;
   }
-  h2 a {
+  h1 a {
     font-size: 22px;
   }
   .container {
